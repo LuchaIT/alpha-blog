@@ -2,14 +2,17 @@
 
 	<h1 class="text-center mt-4">Listing all articles</h1>
 
+	<div class="row col-12 justify-content-md-center">
+		<%= link_to 'NEW Article', new_article_path, class: "btn btn-success my-2 my-sm-0" %>
+	</div>
+
+
+
+
 	<div class="container">
-		<div class="row justify-content-md-center"">
-			<div class="col-2 mt-4">
-				<%= link_to 'NEW Article', new_article_path, class: 'btn btn-lg btn-warning ', id: 'btn-new-article' %>
-			</div>
-		</div>
+
 		<% @articles.each do |article| %>
-			<div class="row justify-content-md-center"">
+			<div class="row justify-content-md-center">
 				<div class="col-8 mt-4">
 					<div class="card text-center shadow mb-5 bg-white rounded">
 					  <div class="card-header font-italic font-weight-bold">
@@ -31,5 +34,4 @@
 			</div>
 		<% end %>
 	</div>
-
 </div>

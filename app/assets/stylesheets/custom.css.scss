@@ -26,7 +26,6 @@ a {
 
 a:hover {
 	color: #64868E;
-	font-weight: bolder;
 	text-decoration: none;
 }
 
@@ -48,7 +47,6 @@ h1 {
 }
 
 .btn-home span {
-	cursor: pointer;
 	display: inline-block;
 	position: relative;
 	transition: 0.5s;
@@ -117,7 +115,7 @@ body {
 
 #page-content {
   flex: 1 0 auto;
-	background: linear-gradient(to left, #4b7551, #f0d699);
+	background: #8a9e52;
 }
 
 #sticky-footer {
@@ -125,11 +123,13 @@ body {
 }
 //*******************************
 
-#btn-new-article{
-	background-color: #8a9e52;
-	border: 1px solid #304d4e;
+.text-light {
+	color: #F2FAF0 !important;
 }
-
+.text-info-ruby{
+	color: #F2FAF0 !important;
+	font-weight: bold;
+}
 body {
-  background: #f0d699;
+  background: #F2FAF0;
 }
