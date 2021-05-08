@@ -25,7 +25,7 @@ a {
 }
 
 a:hover {
-	color: #64868E;
+	color: #f0d699;
 	text-decoration: none;
 }
 
@@ -38,40 +38,15 @@ h1 {
 
 .btn-home {
 	background-color: #8a9e52;
-	border-color: #8a9e52;
+	border-color: #4b7551;
 	color: #f0d699;
-	heiht: 4rem;
-	width: 8rem;
+	height: 3rem;
+	width: 7rem;
 	cursor: pointer;
 	font-weight: bold;
 }
 
-.btn-home span {
-	display: inline-block;
-	position: relative;
-	transition: 0.5s;
-}
 
-.btn-home span:after {
-	content: '\00ab';
-	color: #F2FAF0;
-	position: absolute;
-	opacity: 0;
-	top: 0;
-	left: -70px;
-}
-
-.btn-home:hover span {
-	padding-left: 25px;
-	color: #F2FAF0 !important;
-}
-
-.btn-home:hover span:after {
-	opacity: 1;
-	right: 0;
-}
-
-// *******************************
 
 
 #home-container {
@@ -127,6 +102,9 @@ body {
 	color: #F2FAF0 !important;
 }
 
-body {
-  background: #8a9e52;
+.dropdown-item{
+	color: #f0d699 !important;
+}
+.dropdown-item:hover{
+		color: #4b7551 !important;
 }
